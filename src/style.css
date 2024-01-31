@@ -1,0 +1,32 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  color: black;
+}
+section {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+
+.App {
+  text-align: center;
+}
+
+.homeSlide {
+  background-image: url("images/AdobeStock_189752474.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  
+  background-color:rgb(31, 30, 30);
+  background-blend-mode: multiply;
+  width: max-content;
+  height: auto;
+}

@@ -1,0 +1,37 @@
+.nav {
+    background-color: #141418;
+    padding: 1rem;
+    text-align: center;
+    height: auto;
+    width: 100%;
+    position: sticky;
+    top: 0px; 
+}
+.navbarContainer {
+    color: white;
+}
+.navLogo {
+    width: 250px;
+
+    float: left;
+}
+.topnav {
+    margin: 0px auto;
+    text-align: right;
+    overflow: hidden;
+}
+
+.navLink {
+    float: right;
+    display: block;
+    color: #d79a2a;
+    text-align: center;
+    padding: 2rem 1rem;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+.navLink:hover {
+    background-color: #d79a2a;
+    height: 100%;
+    color: black;
+}

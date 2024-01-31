@@ -1,25 +1,57 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
 
-function App() {
+import NavBar from './NavBar';
+import Home from './pages/Home';
+import AboutUs from './pages/AboutUs';
+import Sell from './pages/Sell';
+import Consignment from './pages/Consignment';
+import CustomPieces from './pages/CustomPieces';
+import Repairs from './pages/Repairs';
+import ContactUs from './pages/ContactUs'
+
+import styles from './App.module.css';
+
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+    <body>
+      <NavBar />
+        <section 
+          id="main" 
+          className={styles.mainSlide}
         >
-          Learn React
-        </a>
-      </header>
-    </div>
+          <Home />
+        </section>
+        <section 
+          id="about-us" 
+          className={styles.aboutBackImg}
+        >
+          <AboutUs />
+        </section>
+        <section 
+          id="sell"
+        >
+          <Sell />
+        </section>
+        <section 
+          id="consignment"
+        >
+          <Consignment />
+        </section>
+        <section 
+          id="custom-pieces"
+        >
+          <CustomPieces />
+        </section>
+        <section 
+          id="repairs"
+        >
+          <Repairs />
+        </section>
+        <section 
+          id="contact-us"
+        >
+          <ContactUs />
+        </section>
+  </body>
   );
 }
-
-export default App;
