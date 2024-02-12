@@ -1,36 +1,56 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 
-//import styles from './pages.module.css';
+import styles from './pages.module.css';
+import customImg from '../images/customImage.jpeg';
 
 export default function CustomPieces() {
 
     return (
-        <>
+        <section
+            className={styles.customBackImg}
+            id="custom-pieces"
+        >
             <Container>
-                <Row>
+                <Row
+                    className="justify-content-center text-center"
+                >
                     <Col>
-                    <h2>
-                        Custom Jewelry
-                    </h2>
+                        <h2>
+                            Custom Jewelry
+                        </h2>
                     </Col>
                 </Row>
-                <Row>
-                    <Col>
-                    <h3>Crafting Your Dream Into Reality</h3>
-                    <p>
-                        Do you have a vision or even a picture of something amazing 
-                        that you would like to create? Together... we can make it a 
-                        reality and have fun along the way! With our talented 
-                        master jewelry artisans we can create something beautiful 
-                        that captures your essence. 
-                    </p>    
+                <Row
+                    className="align-items-center mt-4"
+                >
+                    <Col
+                        xs={12}
+                        md={6}
+                    >
+                        <h3>
+                            Crafting Your Dream Into Reality
+                        </h3>
+                        <p>
+                            Do you have a vision or even a picture of something amazing 
+                            that you would like to create? Together... we can make it a 
+                            reality and have fun along the way! With our talented 
+                            master jewelry artisans we can create something beautiful 
+                            that captures your essence. 
+                        </p>   
                     </Col>
-                    <Col>
-                    <p>insert image</p>
+                    <Col
+                        xs={12}
+                        md={6}
+                    >
+                        <img 
+                            src={customImg}
+                            alt="Custom Jewelry"
+                            className="img-fluid"
+                        />
                     </Col>
                 </Row>
             </Container>
-        </>
+        </section>
     );
 }

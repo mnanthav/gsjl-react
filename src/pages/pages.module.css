@@ -19,6 +19,49 @@
     max-width: 40%;
 
 }
+/*---------------------------------------------- section: home -------------------------*/
+.mainSlide {
+    color: white;
+    text-align: center;
+    background-image: url('../images/mainSlideBackground.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    background-color: rgba(20, 20, 24, 0.25);
+    background-blend-mode: multiply;
+    width: max;
+    height: auto;
+}
+.mainSlide h1 {
+    font-size: 4em;
+}
+.mainSlide p {
+    font-size: 2em;
+}
+/*--------------------------------------------------------------------------------------*/
+/*---------------------------------------------- section: about-us ---------------------*/
+.aboutBackImg {
+    background-image: url("../images/aboutSlideBackground.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    width: 100%;
+    padding: 30px 0px;
+}
+.aboutBackImg h2 {
+    text-align: center;
+    color: black;
+    font-size: 2.5em;
+    padding-bottom: 100px;
+
+    background-image: url("../images/headerUnderline.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.aboutBackImg h3 {
+    font-size: 1.8em;
+}
 .aboutImg {
     background-image: url("../images/aboutSlideImage.jpeg");
     background-position: bottom;
@@ -34,3 +77,122 @@
     display: table;
     clear:both;
 }
+/*--------------------------------------------------------------------------------------*/
+/*---------------------------------------------- section: sell -------------------------*/
+.buyBackImg {
+    background-image: url("../images/sellBackground.png");
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+
+    background-color: rgba(20, 20, 24, 0.6);
+    background-blend-mode: multiply;
+
+    width: 100%;
+    padding: 0;   
+}
+.buyBackImg h2 {
+    margin: 0;
+    text-align: center;
+    color: white;
+    font-size: 2.5em;
+    padding: 0 0 70px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../images/headerUnderline.png");
+}
+.buyBullets {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.buyBullets ul {
+    list-style: none;
+    color: white;
+    margin-bottom: 80px;
+    padding: 0 0 20px 0;
+}
+.buyBullets li {
+    line-height: 30px;
+    font-size: 24px;
+    padding-bottom: 10px;
+}
+/*--------------------------------------------------------------------------------------*/
+/*---------------------------------------------- section: consignment ------------------*/
+.consignBackImg {
+    background-image: url("../images/consignBackground.jpeg");
+    background-size: cover;
+    background-position: right;
+    background-repeat:no-repeat;
+
+    background-color: rgba(143, 137, 137, 0.1);
+    background-blend-mode: multiply;
+
+    width: 100%;
+    padding: 30px 0;
+}
+.consignBackImg h2 {
+    background-image: url("../images/headerUnderline.png");
+    background-position: center;
+    background-repeat: no-repeat;
+
+    margin: 0;
+    text-align: center;
+    color: black;
+    font-size: 2.5em;
+    padding : 0 0 100px;
+}
+/*--------------------------------------------------------------------------------------*/
+/*---------------------------------------------- section: custom-pieces ----------------*/
+.customBackImg {
+    background-image: url("../images/customBackground.jpeg");
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+
+    background-color: rgba(20, 20, 24, 0.6);
+    background-blend-mode: multiply;
+
+    width: 100%;
+    padding: 30px 0;
+}
+.customBackImg h2 {
+    background-image: url("../images/headerUnderline.png");
+    background-position: center;
+    background-repeat: no-repeat;
+
+    margin: 0;
+    color: white;
+    text-align: center;
+    font-size: 2.5em;
+    padding-bottom: 100px;
+}
+/*--------------------------------------------------------------------------------------*/
+/*---------------------------------------------- section: repairs ----------------------*/
+.repairsBackImg {
+    background-image: url("../images/repairsBackground.jpeg");
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+
+    background-color: rgba(143, 137, 137, 0.1);
+    background-blend-mode: multiply;
+
+    width: 100%;
+    padding: 30px 0;
+}
+.repairsBackImg h2 {
+    background-image: url("../images/headerUnderline.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    margin: 0;
+    padding: 0 0 100px;
+    color: black;
+    text-align: center;
+    font-size: 2.5em;
+}
+/*--------------------------------------------------------------------------------------*/
+/*---------------------------------------------- section: contact-us -------------------*/
+
+/*--------------------------------------------------------------------------------------*/

@@ -1,26 +1,46 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 
-//import styles from './pages.module.css';
+import styles from './pages.module.css';
+import consignImg from '../images/consignImage.jpeg';
 
 export default function Consignment() {
 
     return (
-        <>
+        <section
+            className={styles.consignBackImg}
+            id="consignment"
+        >
             <Container>
-                <Row>
+                <Row
+                    className="justify-content-center text-center"
+                >
                     <Col>
-                    <h2>
-                        Consignment
-                    </h2>
+                        <h2>
+                            Consignment
+                        </h2>
                     </Col>
                 </Row>
-                <Row>
-                    <Col xs={6} md={4}>
-                    <p>image</p>
+                <Row
+                    className="align-items-center mt-4"
+                >
+                    <Col
+                        xs={12}
+                        md={6}
+                    >
+                        <img
+                            src={consignImg}
+                            alt="Consignment image"
+                            className="img-fluid"
+                        />
                     </Col>
-                    <Col xs={12} md={8}>
-                    <h3>Elevate Your Returns, Minimize Your Effort</h3>
+                    <Col
+                        xs={12}
+                        md={6}
+                    >
+                        <h3>
+                            Elevate Your Returns, Minimize Your Effort
+                        </h3>
                         <p>
                             Consignment is a great avenue to take if you have some extra {'\n'} 
                             time and you want to maximize your yield. Simply leave the {'\n'} 
@@ -29,8 +49,10 @@ export default function Consignment() {
                             you a larger profit!
                         </p>
                     </Col>
+
                 </Row>
             </Container>
-        </>
+
+        </section>
     );
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Navbar, Nav, Container } from 'react-bootstrap';
-import { Link } from 'react-scroll';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 import styles from './NavBar.module.css';
 import logo from './images/gsjl-logo.png';
@@ -8,7 +8,49 @@ import logo from './images/gsjl-logo.png';
 export default function NavBar() {
 
     return (
-        <>
+        <Navbar
+            collapseOnSelect 
+            expand="lg"
+            className={styles.nav}
+        >
+            <Navbar.Brand href="#home">
+                <img 
+                    src={logo}
+                    className={styles.navLogo}
+                    alt="Golden State Jewelry & Loan logo"
+                />
+            </Navbar.Brand>
+            <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+            <Navbar.Collapse id="resonsive-navbar-nav">
+                <Nav className={styles.topnav}>
+                    <Nav.Link href="#about-us" className={styles.navlink} >
+                        About Us
+                    </Nav.Link>
+                    <Nav.Link href="#sell" className={styles.navlink} >
+                        Sell
+                    </Nav.Link>
+                    <Nav.Link href="#consignment" className={styles.navlink} >
+                        Consignment
+                    </Nav.Link>
+                    <Nav.Link href="#custom-pieces" className={styles.navlink} >
+                        Custom Pieces
+                    </Nav.Link>
+                    <Nav.Link href="#repairs" className={styles.navlink} >
+                        Repairs
+                    </Nav.Link>
+                    <Nav.Link href="#appraisals" className={styles.navlink} >
+                        Appraisals
+                    </Nav.Link>
+                    <Nav.Link href="#contact-us" className={styles.navlink} >
+                        Contact Us
+                    </Nav.Link>
+                </Nav>
+            </Navbar.Collapse>
+        </Navbar>
+    );
+}
+/*
+<>
             <Navbar
                 collapseOnSelect
                 expand="lg"
@@ -91,5 +133,4 @@ export default function NavBar() {
                 </Container>
             </Navbar>
         </>
-    );
-}
+*/

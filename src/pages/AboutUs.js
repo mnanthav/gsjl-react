@@ -7,10 +7,13 @@ import styles from './pages.module.css';
 export default function AboutUs() {
 
     return (
-        <>
+        <section
+            className={styles.aboutBackImg}
+            id="about-us"
+        >
             <Container>
-                <Row 
-                    className={styles.row}
+                <Row
+                    className="justify-content-center text-center"
                 >
                     <Col>
                         <h2>
@@ -18,38 +21,36 @@ export default function AboutUs() {
                         </h2>
                     </Col>
                 </Row>
-                <Row 
-                    className={styles.row}
+                <Row
+                    className="align-items-center mt-4"
                 >
                     <Col 
-                        xs={12} 
-                        md={8} 
-                        className={styles.textLeft}
+                        xs={12}
+                        md={6}
                     >
                         <h3>
-                            Meet Our Experienced Team of G.I.A. Graduates
+                            Meet Our Experienced Team of G.I.A. Graduates 
                         </h3>
                         <p>
-                            We have over two decades of jewelry, diamond, and gemstone 
-                            knowledge. With all of our buyers being G.I.A. graduates, 
-                            we are able to give our clients a better overall experience 
-                            and value whether you are selling, buying or creating that 
-                            one of a kind custom piece! 
+                            We have over two decades of jewelry, diamond, and gemstone
+                            knowledge. With all of our buyers being G.I.A. graduates,
+                            we are able to give our clients a better overall experience
+                            and value whether you are selling, buying or creating that
+                            one of a kind custom piece!
                         </p>
                     </Col>
                     <Col 
-                        xs={6} 
-                        md={4} 
-                        className={styles.imgRight}
+                        xs={12}
+                        md={6}
                     >
                         <img 
-                            alt="Ring and Magnifier"
                             src={abtImg}
-                            className={styles.aboutImg}
+                            alt="About Us"
+                            className="img-fluid"
                         />
                     </Col>
                 </Row>
             </Container>
-        </>
+        </section>
     );
 }
