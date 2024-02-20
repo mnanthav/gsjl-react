@@ -13,7 +13,7 @@ export default function CustomPieces() {
         >
             <Container>
                 <Row
-                    className="justify-content-center text-center"
+                    className={styles.headerWhite}
                 >
                     <Col>
                         <h2>
@@ -22,7 +22,7 @@ export default function CustomPieces() {
                     </Col>
                 </Row>
                 <Row
-                    className="align-items-center mt-4"
+                    className={styles.textWhite}
                 >
                     <Col
                         xs={12}

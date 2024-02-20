@@ -12,7 +12,7 @@ export default function Sell() {
         >
             <Container>
                 <Row
-                    className="justify-content-center"
+                    className={styles.headerWhite}
                 >
                     <Col
                         xs={12}
@@ -23,7 +23,7 @@ export default function Sell() {
                     </Col>
                 </Row>
                 <Row
-                    className="justify-content-center mt-3"
+                    className={styles.textWhite}
                 >
                     <Col
                         xs={12}

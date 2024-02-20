@@ -1,23 +1,56 @@
+.headerWhite {
+    color: white;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 80px;
 
-.row {
-    max-width: 100%;
-    margin: auto;
+    background-image: url("../images/headerUnderline.png");
+    background-position: center;
+    background-repeat: no-repeat;
 }
+.headerWhite h2 {
+    font-size: 2.5em;
+}
+.textWhite {
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4;
 
-.textLeft {
-    float: left;
-    max-width: 60%;
-    margin-left: 2rem;
-    padding-right: 40px;
 }
-.textLeft p {
-    line-height: 30px;
-    font-size: 24px;
+.textWhite h3 {
+    font-size: 1.8em;
 }
-.imgRight {
-    float: right;
-    max-width: 40%;
+.textWhite p {
+    font-weight: 600;
+    font-size: 1em;
+}
+/*-------------------------------*/
+.headerBlack {
+    color: black;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 80px;
 
+    background-image: url("../images/headerUnderline.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.headerBlack h2 {
+    font-size: 2.5em;
+}
+.textBlack {
+    color: black;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4;
+}
+.textBlack h3 {
+    font-size: 1.8em;
+}
+.textBlack p {
+    font-weight: 600;
+    font-size: 1em;
 }
 /*---------------------------------------------- section: home -------------------------*/
 .mainSlide {
@@ -49,34 +82,6 @@
     width: 100%;
     padding: 30px 0px;
 }
-.aboutBackImg h2 {
-    text-align: center;
-    color: black;
-    font-size: 2.5em;
-    padding-bottom: 100px;
-
-    background-image: url("../images/headerUnderline.png");
-    background-repeat: no-repeat;
-    background-position: center;
-}
-.aboutBackImg h3 {
-    font-size: 1.8em;
-}
-.aboutImg {
-    background-image: url("../images/aboutSlideImage.jpeg");
-    background-position: bottom;
-    background-repeat: no-repeat;
-    height: 295px;
-    margin-top: 30px;
-    margin-right: 2rem;
-    border-radius: 3px;
-
-}
-.row:after {
-    content: "";
-    display: table;
-    clear:both;
-}
 /*--------------------------------------------------------------------------------------*/
 /*---------------------------------------------- section: sell -------------------------*/
 .buyBackImg {
@@ -91,16 +96,7 @@
     width: 100%;
     padding: 0;   
 }
-.buyBackImg h2 {
-    margin: 0;
-    text-align: center;
-    color: white;
-    font-size: 2.5em;
-    padding: 0 0 70px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-image: url("../images/headerUnderline.png");
-}
+
 .buyBullets {
     width: 100%;
     margin: 0 auto;
@@ -131,17 +127,6 @@
     width: 100%;
     padding: 30px 0;
 }
-.consignBackImg h2 {
-    background-image: url("../images/headerUnderline.png");
-    background-position: center;
-    background-repeat: no-repeat;
-
-    margin: 0;
-    text-align: center;
-    color: black;
-    font-size: 2.5em;
-    padding : 0 0 100px;
-}
 /*--------------------------------------------------------------------------------------*/
 /*---------------------------------------------- section: custom-pieces ----------------*/
 .customBackImg {
@@ -156,19 +141,8 @@
     width: 100%;
     padding: 30px 0;
 }
-.customBackImg h2 {
-    background-image: url("../images/headerUnderline.png");
-    background-position: center;
-    background-repeat: no-repeat;
-
-    margin: 0;
-    color: white;
-    text-align: center;
-    font-size: 2.5em;
-    padding-bottom: 100px;
-}
 /*--------------------------------------------------------------------------------------*/
-/*---------------------------------------------- section: repairs ----------------------*/
+/*---------------------------------------------- section: repairs ----- -----------------*/
 .repairsBackImg {
     background-image: url("../images/repairsBackground.jpeg");
     background-size: cover;
@@ -181,18 +155,39 @@
     width: 100%;
     padding: 30px 0;
 }
-.repairsBackImg h2 {
-    background-image: url("../images/headerUnderline.png");
-    background-position: center;
+/*--------------------------------------------------------------------------------------*/
+/*---------------------------------------------- section: appraisals -------------------*/
+.apprBackImg {
+    background-image: url("../images/appraisalBackground.jpeg");
+    background-size: cover;
+    background-position: right;
     background-repeat: no-repeat;
-    
-    margin: 0;
-    padding: 0 0 100px;
-    color: black;
+
+    background-color: rgba(20, 20, 24, 0.6);
+    background-blend-mode: multiply;
+
     text-align: center;
-    font-size: 2.5em;
+    width: 100%;
+    padding: 30px 0;
 }
+.apprDropdownBtn {
+    font-size: larger;
+    color: white;
+    padding: 0.5em;
+    cursor: pointer;
+}
+
 /*--------------------------------------------------------------------------------------*/
 /*---------------------------------------------- section: contact-us -------------------*/
+.contactBackImg {
+    background-image: url("../images/contactBackground.jpeg");
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 30px 0;
 
+    background-color:rgba(20, 20, 24, 0.6);
+    background-blend-mode: multiply;
+}
 /*--------------------------------------------------------------------------------------*/

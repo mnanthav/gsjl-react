@@ -13,7 +13,7 @@ export default function Consignment() {
         >
             <Container>
                 <Row
-                    className="justify-content-center text-center"
+                    className={styles.headerBlack}
                 >
                     <Col>
                         <h2>
@@ -22,7 +22,7 @@ export default function Consignment() {
                     </Col>
                 </Row>
                 <Row
-                    className="align-items-center mt-4"
+                    className={styles.textBlack}
                 >
                     <Col
                         xs={12}

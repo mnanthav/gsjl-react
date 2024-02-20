@@ -13,7 +13,7 @@ export default function Repairs() {
         >
             <Container>
                 <Row
-                    className="justify-content-center text-center"
+                    className={styles.headerBlack}
                 >
                     <Col>
                         <h2>
@@ -22,7 +22,7 @@ export default function Repairs() {
                     </Col>
                 </Row>
                 <Row
-                    className="align-items-center mt-4"
+                    className={styles.textBlack}
                 >
                     <Col
                         xs={12}
@@ -42,10 +42,15 @@ export default function Repairs() {
                             Renewing the Beauty of Your Treasured Pieces
                         </h3>
                         <p>
-                            Our Master Jewelers have been delicately repairing {'\n'}
-                            priceless jewelry pieces for over four decades. We can do {'\n'}
-                            anything from setting stones and tightening prongs to ring {'\n'}
-                            sizing and polishing. 
+                            With over four decades of expertise, our Master Jewelers offer a wide array of services
+                            to bring the original allure back to your cherished jewelry. These services range from intricate 
+                            stone settins and prong tightening to precise ring sizing and expert polishing, 
+                            we handle every detail with care. We also specialize in watch battery replacements, ensuring your 
+                            timepieces are as funcitonal as they are beautiful.
+                        </p>
+                        <p>
+                            Should you require assistance with a service not mentioned, please do not hesitate to contact us; 
+                            we're here to meet all your jewelry care needs!
                         </p>
                     </Col>
                 </Row>
